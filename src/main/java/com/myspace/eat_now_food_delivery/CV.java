@@ -6,12 +6,70 @@ package com.myspace.eat_now_food_delivery;
 
 public class CV implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CV() {
-    }
+	@org.kie.api.definition.type.Label(value = "Age")
+	private java.lang.Integer age;
+	@org.kie.api.definition.type.Label(value = "Name")
+	private java.lang.String name;
+	@org.kie.api.definition.type.Label(value = "Surname")
+	private java.lang.String surname;
+	@org.kie.api.definition.type.Label(value = "Prax")
+	private java.lang.Integer prax;
+	@org.kie.api.definition.type.Label(value = "Salary")
+	private java.lang.Long salary;
 
+	public CV() {
+	}
 
+	public java.lang.Integer getAge() {
+		return this.age;
+	}
 
+	public void setAge(java.lang.Integer age) {
+		this.age = age;
+	}
+
+	public java.lang.String getName() {
+		return this.name;
+	}
+
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.String getSurname() {
+		return this.surname;
+	}
+
+	public void setSurname(java.lang.String surname) {
+		this.surname = surname;
+	}
+
+	public java.lang.Integer getPrax() {
+		return this.prax;
+	}
+
+	public void setPrax(java.lang.Integer prax) {
+		this.prax = prax;
+	}
+
+	public java.lang.Long getSalary() {
+		return this.salary;
+	}
+
+	public void setSalary(java.lang.Long salary) {
+		this.salary = salary;
+	}
+
+	public CV(java.lang.Integer age, java.lang.String name,
+			java.lang.String surname, java.lang.Integer prax,
+			java.lang.Long salary) {
+		this.age = age;
+		this.name = name;
+		this.surname = surname;
+		this.prax = prax;
+		this.salary = salary;
+	}
 
 }
