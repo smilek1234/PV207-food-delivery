@@ -8,26 +8,18 @@ public class CV implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Age")
-	private java.lang.Integer age;
 	@org.kie.api.definition.type.Label(value = "Name")
 	private java.lang.String name;
 	@org.kie.api.definition.type.Label(value = "Surname")
 	private java.lang.String surname;
+	@org.kie.api.definition.type.Label(value = "Age")
+	private java.lang.Integer age;
+	@org.kie.api.definition.type.Label(value = "Salary")
+	private float salary;
 	@org.kie.api.definition.type.Label(value = "Prax")
 	private java.lang.Integer prax;
-	@org.kie.api.definition.type.Label(value = "Salary")
-	private java.lang.Long salary;
 
 	public CV() {
-	}
-
-	public java.lang.Integer getAge() {
-		return this.age;
-	}
-
-	public void setAge(java.lang.Integer age) {
-		this.age = age;
 	}
 
 	public java.lang.String getName() {
@@ -46,6 +38,22 @@ public class CV implements java.io.Serializable {
 		this.surname = surname;
 	}
 
+	public java.lang.Integer getAge() {
+		return this.age;
+	}
+
+	public void setAge(java.lang.Integer age) {
+		this.age = age;
+	}
+
+	public float getSalary() {
+		return this.salary;
+	}
+
+	public void setSalary(float salary) {
+		this.salary = salary;
+	}
+
 	public java.lang.Integer getPrax() {
 		return this.prax;
 	}
@@ -54,22 +62,13 @@ public class CV implements java.io.Serializable {
 		this.prax = prax;
 	}
 
-	public java.lang.Long getSalary() {
-		return this.salary;
-	}
-
-	public void setSalary(java.lang.Long salary) {
-		this.salary = salary;
-	}
-
-	public CV(java.lang.Integer age, java.lang.String name,
-			java.lang.String surname, java.lang.Integer prax,
-			java.lang.Long salary) {
-		this.age = age;
+	public CV(java.lang.String name, java.lang.String surname,
+			java.lang.Integer age, float salary, java.lang.Integer prax) {
 		this.name = name;
 		this.surname = surname;
-		this.prax = prax;
+		this.age = age;
 		this.salary = salary;
+		this.prax = prax;
 	}
 
 }
