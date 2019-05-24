@@ -6,7 +6,7 @@
   <artifactId>Eat-now-food-delivery</artifactId>
   <version>1.0.0</version>
   <packaging>kjar</packaging>
-  <name>Eat-now-food-delivery</name>
+  <name>Eat-now-food-delivery-1</name>
   <description></description>
   <dependencies>
     <dependency>
