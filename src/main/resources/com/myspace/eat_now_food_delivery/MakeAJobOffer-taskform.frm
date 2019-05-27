@@ -1,0 +1,1 @@
+{"id":"223ca96b-1d0d-4522-9a98-8731914906e5","name":"MakeAJobOffer-taskform.frm","model":{"taskName":"MakeAJobOffer","processId":"Eat-now-food-delivery-1.EmployeeOnboarding","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
