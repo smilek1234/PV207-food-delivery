@@ -1,0 +1,1 @@
+{"id":"dcbab522-b18b-4129-88e1-4bd1359085c3","name":"finalize_initiative-taskform.frm","model":{"taskName":"finalize_initiative","processId":"Eat-now-food-delivery.Marketingaction","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}

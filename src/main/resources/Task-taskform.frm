@@ -1,0 +1,1 @@
+{"id":"154d018d-b2e3-49f8-a47e-7b1274edb6e5","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"Eat-now-food-delivery.Marketingaction","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}

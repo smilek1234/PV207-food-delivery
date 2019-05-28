@@ -1,0 +1,1 @@
+{"id":"94f9f122-b1d6-42cb-84a9-56c593b3138e","name":"apply_MA_rules-taskform.frm","model":{"taskName":"apply_MA_rules","processId":"Eat-now-food-delivery.Marketingaction","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
